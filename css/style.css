@@ -1,0 +1,235 @@
+*{
+    font-family: 'Lato', Calibri, Arial,'Hanuman', serif, sans-serif;
+    list-style: none;
+    line-height: 30px;
+    
+}
+
+
+/*Sub Nav */
+.sub-nav {
+    min-width: 200px;
+    position: absolute;
+    left: 100%;
+    display: none;
+    top: 0px;
+    background-color: rgb(33, 159, 175,0.9);
+    z-index: 2;
+    list-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    color: white;
+}
+li:hover > .sub-nav {
+    display: block;
+}
+.sub-nav li a {
+    color: white;
+    text-decoration: none;
+}
+.sub-nav li a :hover{
+    color:black !important;
+    text-decoration: none;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+/* Only for snippet */
+.double-nav .breadcrumb-dn {
+    color: #fff;
+}
+  .collap-bar{
+      width:50px;
+      height: auto;
+      background-color: green;
+      padding:10px;
+      margin: 30px;
+      margin-top: 70px;
+      font-size: 30px;
+      color: #fff ;
+  }
+.card-border{
+    border: 1px solid rgb(185, 185, 185);
+    box-shadow: 5px 5px 10px rgb(212, 194, 194);
+    margin-top: 20px;
+}
+.tophead{
+    width:130px;
+    margin: 0;
+    color:white;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 30%;
+    padding:6px 10px;
+}
+.back{
+    display: inline-block;
+    margin: auto;
+    padding: 2% 2%;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.35);
+    z-index:0;
+}
+.back2{
+    position:relative;
+    z-index:0;
+    color:white;
+    padding-left:5px;
+    top:32%;
+    font-size:24px;
+    vertical-align: middle;
+}
+.back1>p{
+    margin: 0px;
+    font-size: 16px;
+}
+.back1{
+    background-color: rgba(3, 3, 3, 0.472);
+    position:absolute;
+    right: 0;
+    z-index: 0;
+    width: 35%;
+    height: 100%;
+}
+.title{
+    color: red;
+}
+#thumbnail{
+    z-index: -1;
+}
+#custom-nav{
+    border: none;
+    border-bottom: rgb(0, 66, 97) solid 5px;
+}
+footer {
+    padding: 50px 0;
+    background: #2C343E;
+    color: #f2f7fd ;
+        
+}
+footer a{
+    color: #f2f7fd;
+}
+
+/*side bar */
+
+.cl-hs,.cl-ss,.cl-cs,.cl-fc,.cl-lg,.cl-he{
+    background: linear-gradient(#62b0dd, #52aaee);
+    height: 50px;
+    text-align: left;
+    color: #f2f7fd;
+}
+.li-hs li:hover,.li-ss li:hover,.li-cs li:hover,.li-lg li:hover,.li-fc li:hover,.li-he li:hover{
+    background-color: #dddcdc;
+}
+.li-cs ul li a, .li-fc ul li a, .lg-black a, .li-he ul li a{
+    color: black ;
+} 
+ 
+
+/*Pagination */
+  #pagination-demo{
+    display: inline-block;
+    margin-bottom: 1.75em;
+  }
+  #pagination-demo li{
+    display: inline-block;
+  }
+  
+  .page-content{
+    background: #eee;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    max-width: 660px;
+  }
+
+  /*Form login*/
+  label {
+    font-family: 'Koulen', cursive;
+    font-family: 'Bokor', cursive;
+    font-weight: bold;
+}
+
+h5.card-header.info-color.white-text.text-center.py-4 {
+    background-color: #212529 !important;
+    font-size: 170% !important;
+    font-weight: bold;
+}
+
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+button.btn.btn-primary.btn-rounded.waves-effect.waves-light{
+    margin: auto;
+    background-color: #3B5A92 !important;
+    width: 87%;
+    font-size: 85%;
+    font-weight: bold;
+    border-radius: 0;
+}
+.row.myButton1 {
+    margin: 50%;
+}
+button.btn.btn-danger.waves-effect.waves-light {
+    margin: auto;
+    width: 87%;
+    font-size: 85%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.sub-nav li:hover{
+    background: linear-gradient(#62b0dd, #52aaee);
+    
+}
+/* Scroll Top Button */
+#btnScroll {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    z-index: 99;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color:rgb(56, 184, 200);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  #btnScroll:hover {
+    background-color: rgb(38, 0, 255);
+  }
+
+ 
+
+
+ .form-check.form-check-inline.female-radio {
+    margin-left: 60px;
+}
+#errPass, #errName, #errRepass, #errPhone, #errPhone, #errEmail
+{
+    color: red;
+    text-align: center; 
+}
+.my-header-sign
+{
+    text-align: center;
+    font-size: 107%;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 23px;
+    
+}
+.text-center {
+    text-align: left!important;
+}
